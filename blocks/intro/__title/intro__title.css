@@ -1,0 +1,10 @@
+.intro__title {
+  width: 100%;
+  min-height: 58px;
+  margin: 0 auto 40px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 107%;
+}
