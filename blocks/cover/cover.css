@@ -1,0 +1,16 @@
+.cover {
+  position: relative;
+  width: calc(100% - 48px*2);
+  min-height: 740px;
+  margin: 92px auto 0;
+  background-image: url(../../images/cover/background.jpg);
+  background-size: cover;
+  z-index: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    width: 100%;
+    min-height: 640px;
+  }
+}

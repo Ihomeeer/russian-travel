@@ -1,0 +1,19 @@
+.cover__title {
+  width: calc(100% - 312px*2);
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 106%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__title {
+    width: calc(100% - 232px*2);
+  }
+}
