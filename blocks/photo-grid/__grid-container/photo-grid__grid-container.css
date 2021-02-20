@@ -20,3 +20,11 @@
     grid-gap: 16px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .photo-grid__grid-container {
+    grid-template-columns: 288px;
+    grid-template-rows: repeat(12, 216px);
+    grid-row-gap: 12px;
+  }
+}
