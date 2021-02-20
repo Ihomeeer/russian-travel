@@ -8,5 +8,13 @@
   .lead {
     width: calc(100% - 48px*2);
     min-height: 962px;
+    margin: 48px auto 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    width: 100%;
+    min-height: 862px;
   }
 }

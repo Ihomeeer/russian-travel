@@ -7,3 +7,16 @@
   font-size: 72px;
   line-height: 106%;
 }
+
+@media screen and (max-width: 1023px) {
+  .place__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 46px;
+  }
+  .place__title:first-child {
+    width: min-content;
+  }
+}
