@@ -17,3 +17,16 @@
   opacity: 0.8;
   transition: opacity 0.4s;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    width: 100%;
+    margin: 0 auto 32px;
+  }
+  .footer__link:last-child {
+    margin-bottom: 0;
+  }
+}

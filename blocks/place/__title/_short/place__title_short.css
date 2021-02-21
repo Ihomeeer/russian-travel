@@ -3,3 +3,9 @@
     width: min-content;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .place__title_short {
+    width: calc(100% - 16px*2);
+  }
+}

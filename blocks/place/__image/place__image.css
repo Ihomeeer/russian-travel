@@ -16,3 +16,19 @@
     height: 340px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .place__image {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto 0;
+  }
+}
+
+/* Дополнительная точка для более красивого масштабирования */
+@media screen and (max-width: 499px) {
+  .place__image {
+    width: 320px;
+    height: 320px
+  }
+}

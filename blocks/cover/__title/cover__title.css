@@ -23,3 +23,13 @@
     width: calc(100% - 104px*2);
   }
 }
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    width: calc(100% - 16px*2);
+    margin-top: 33px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

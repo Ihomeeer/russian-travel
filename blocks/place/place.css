@@ -24,3 +24,24 @@
     grid-gap: 48px 28px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .place {
+    width: 100%;
+    margin-bottom: 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content min-content min-content;
+    grid-row-gap: 32px;
+  }
+}
+
+/* Дополнительная точка для более красивого масштабирования */
+@media screen and (max-width: 499px) {
+  .place {
+    width: 100%;
+    margin-bottom: 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 35px 46px 320px min-content;
+    grid-row-gap: 32px;
+  }
+}

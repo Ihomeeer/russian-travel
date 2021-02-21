@@ -2,6 +2,9 @@
   width: 100%;
   margin: 0 auto 0;
   height: 615px;
+  background-image: url(../../../images/lead/lead__image.jpg);
+  background-size: cover;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1279px) {
@@ -18,6 +21,15 @@
 
 @media screen and (max-width: 767px) {
   .lead__image {
+    height: 312px;
+    width: 500px;
+  }
+}
+
+/* Добавил дополнительную точку, чтобы картинка не была слишком маленькой между 320 и 768 */
+@media screen and (max-width: 499px) {
+  .lead__image {
     height: 200px;
+    width: 320px;
   }
 }
