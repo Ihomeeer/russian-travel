@@ -1,7 +1,6 @@
 .cover__link {
-  position: absolute;
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
+  height: 100%;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -17,6 +16,7 @@
   width: 100%;
   height: 100%;
   opacity: 0.3;
+  align-self: stretch;
 }
 
 .cover__link:hover:before {
