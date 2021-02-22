@@ -12,4 +12,4 @@ _______________
 - 2. Дополнительные точки перелома.
 
 ### Ссылка на проект
-https://ihomeeer.github.io/russian-travel/index.html
+https://ihomeeer.github.io/russian-travel/
