@@ -5,8 +5,9 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 122%;
+  line-height: 22px;
   color: white;
+  text-decoration-line: underline;
 }
 
 .place__link:hover {
