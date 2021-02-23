@@ -2,8 +2,6 @@
   width: 100%;
   margin: 0 auto 0;
   height: 615px;
-  background-image: url(../../../images/lead/lead__image.jpg);
-  background-size: cover;
   object-fit: cover;
 }
 
@@ -21,8 +19,8 @@
 
 @media screen and (max-width: 767px) {
   .lead__image {
+    width: 100%;
     height: 312px;
-    width: 500px;
   }
 }
 
@@ -30,6 +28,6 @@
 @media screen and (max-width: 499px) {
   .lead__image {
     height: 200px;
-    width: 320px;
+    width: 100%;
   }
 }

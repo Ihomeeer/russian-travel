@@ -9,9 +9,7 @@
 
 @media screen and (max-width: 1279px) {
   .place {
-    margin-bottom: 80px;
     grid-template-columns: 440px 1fr;
-    grid-template-rows: min-content 1fr;
     grid-gap: 48px 32px;
   }
 }
@@ -20,7 +18,6 @@
   .place {
     margin-bottom: 73px;
     grid-template-columns: 340px 1fr;
-    grid-template-rows: min-content 1fr;
     grid-gap: 48px 28px;
   }
 }
@@ -38,10 +35,6 @@
 /* Дополнительная точка для более красивого масштабирования */
 @media screen and (max-width: 499px) {
   .place {
-    width: 100%;
-    margin-bottom: 50px;
-    grid-template-columns: 1fr;
     grid-template-rows: 35px 46px 320px min-content;
-    grid-row-gap: 32px;
   }
 }

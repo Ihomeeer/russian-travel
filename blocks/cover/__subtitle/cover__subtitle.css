@@ -1,6 +1,5 @@
 .cover__subtitle {
   width: calc(100% - 412px*2);
-  min-height: 66px;
   margin-top: 32px;
   margin-bottom: 0;
   font-family: Inter;
@@ -30,7 +29,6 @@
   .cover__subtitle {
     width: calc(100% - 16px*2);
     margin-top: 16px;
-    font-weight: normal;
     font-size: 14px;
     line-height: 16px;
   }
