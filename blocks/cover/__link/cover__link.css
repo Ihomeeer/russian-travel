@@ -17,9 +17,9 @@
   height: 100%;
   opacity: 0.3;
   align-self: stretch;
+  transition: opacity 0.6s;
 }
 
 .cover__link:hover:before {
   opacity: 0.8;
-  transition: opacity 0.4s;
 }
